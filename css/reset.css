@@ -1,0 +1,97 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, tr, th, td {
+    margin: 0; 
+    padding: 0;
+	box-sizing:border-box;
+}
+
+hr{
+	margin:0;
+	padding:0;
+	}
+/*清除元素的padding和margin*/
+
+fieldset, img { 
+    border: 0; 
+} 
+abbr, acronym { 
+    border: 0; 
+    font-variant: normal; 
+}
+
+img{margin:0;padding:0;border:none}
+table{border-collapse:collapse;}
+
+/*清除元素的边框*/
+
+:focus { 
+    outline: 0; 
+}
+
+
+/*清除元素的外边框，主要用于链接虚线边框*/
+
+address, caption, cite, code, dfn, 
+em, strong, th, var, optgroup { 
+    font-style: inherit; 
+    font-weight: inherit; 
+} 
+  
+h1, h2, h3, h4, h5, h6 { 
+    font-size: 100%; 
+    font-weight: normal; 
+} 
+abbr, acronym { 
+    border: 0; 
+    font-variant: normal; 
+} 
+  
+input, button, textarea, 
+select, optgroup, option { 
+    font-family: inherit; 
+    font-size: inherit; 
+    font-style: inherit; 
+    font-weight: inherit; 
+} 
+
+/*清除字体样式*/
+
+
+ol, ul { 
+    list-style: none; 
+}
+
+/*清除列表样式*/
+
+table { 
+    border-collapse: collapse; 
+    border-spacing: 0; 
+}
+
+caption, th { 
+    text-align: left; 
+}
+
+/*清除表格样式*/
+
+sup, sub { 
+    font-size: 100%; 
+    vertical-align: baseline; 
+}
+/*清除行高样式*/
+
+blockquote, q { 
+    quotes: none; 
+} 
+blockquote:before, blockquote:after, 
+q:before, q:after { 
+    content: ''; 
+    content: none; 
+}
+
+a{
+    text-decoration:none;
+    color:#1b3c43;
+}
+/*清除引用元素的引号*/
+
+

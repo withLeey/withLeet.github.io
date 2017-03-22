@@ -1,0 +1,77 @@
+.section{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.3) !important;
+    z-index: 99;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 20px 30px;
+    float: left;
+}
+
+.nav{
+    float: right;
+    margin: 40px 80px;
+}
+
+.nav ul li{
+    float: left;
+    margin-right: 25px;
+}
+
+.image_1{
+    background: url("../images/1.jpg") no-repeat scroll center top/100% 100%;
+}
+
+.image_2{
+    background: url("../images/2.jpg") no-repeat scroll center top/100% 100%;
+}
+
+.image_3{
+    background: url("../images/3.jpg") no-repeat scroll center top/100% 100%;
+}
+
+.image_4{
+    background: url("../images/4.jpg") no-repeat scroll center top/100% 100%;
+}
+
+.page2_text{
+    border-top: 2px solid red;
+    width: 0;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text2{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.page_text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}

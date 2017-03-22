@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>个人主页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>Just Demo</title>
+    <link href="css/reset.css" rel="stylesheet"/>
+    <link href="css/main.css" rel="stylesheet"/>
+    <link href="css/jquery.fullPage.css" rel="stylesheet"/>
 </head>
 <body>
-    <div style="width: 500px;height: 500px; background: #000000">aaa</div>
+    <header class="header">
+        <div>
+            <div class="logo">
+                <img src="images/dog.jpg" width="100%"/>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="javascript:;">首页</a></li>
+                    <li><a href="javascript:;">随笔</a></li>
+                    <li><a href="javascript:;">积淀</a></li>
+                    <li><a href="javascript:;">关于</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <div id="fullpage">
+        <section class="section image_1"></section>
+        <section class="section image_2">
+            <div class="page2_text" id="page2_text">
+                <p class="text2"></p>
+            </div>
+        </section>
+        <section class="section image_3">
+            <div class="page_text">
+                我们之后可以这样做简历，但是我不会设计... 需要你帮忙！
+            </div>
+        </section>
+        <section class="section image_4">
+            <div class="page_text">
+                今天晚上加班不？
+            </div>
+        </section>
+    </div>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.fullPage.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
